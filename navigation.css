@@ -1,0 +1,21 @@
+.abc{
+    color: snow;
+    background-color: blue;
+}
+.sc{
+    background-color: aqua;
+    color: green;
+}
+table{
+    width: 100%;
+}
+select{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}

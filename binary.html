@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Binary to Decimal</title>
+</head>
+<body>
+    <button type="button" onclick="b()">Click Here</button>
+    <script>
+        function b() {
+            var b, d, base, r;
+            d = 0;
+            base = 1;
+            b = parseInt(prompt('Enter the binary number:'));
+            var temp=b;
+            while (temp>0) {
+                r = temp % 2;
+                d = d + r * base;
+                temp = temp / 10;
+                base =base * 2;
+            }
+            document.write(parseInt(d));
+        }
+    </script>
+</body>
+</html>

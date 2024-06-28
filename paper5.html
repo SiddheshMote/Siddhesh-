@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Q.3</title>
+</head>
+<body>
+    <button type="button" onclick="p1()">Pattern 1</button>
+    <button type="button" onclick="p2()">Pattern 2</button>
+    <script>
+        function p1(){
+        
+             let n  = parseInt(prompt("Enter a number:"));
+            for(let i=0;i<n;i++){
+                for(let j=0;j<i*2-1;j++){
+                    document.write("&nbsp;");
+                }
+                for(let k=0;k<(n-i)*2-1;k++){
+                    document.write("*")
+                }
+                document.write("<br>")
+            }
+                for(let k=0;k<i*2+1;k++){
+                    document.write("*")
+                }
+                document.write("<br>")
+            }
+            
+        
+        function p2() {
+            for (i = 1; i <= 6; i++) {
+                for (let k = 0; k <= 2 * (6 - i) - 1; k++) {
+                    document.write("<br>");
+                }
+                for (let i = 1; i < 6; i++) {
+                    for (let k = 0; k < 2 * i; k++) {
+                        document.write("");
+                    }
+                    for (let j = 0; j < 6 - i; j++) {
+                        document.write("1");
+                    }
+                    document.write("<br>");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

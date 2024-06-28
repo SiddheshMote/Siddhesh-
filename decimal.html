@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Decimal to Binary</title>
+</head>
+
+<body>
+    <button type="button" onclick="d()">Click Here</button>
+    <script>
+        function d() {
+            var decimal = parseInt(prompt("Enter the Decimal number:"));
+            var num = decimal, rem;
+            var binary = '';
+            while (num != 0) {
+                rem = num % 2;
+                if (rem == 1) {
+                    binary = '1' + binary.toString();
+                } else {
+                    binary = '0' + binary.toString();
+                }
+                num = parseInt(num / 2);
+            }
+            document.write(binary);
+        }
+    </script>
+</body>
+
+</html>

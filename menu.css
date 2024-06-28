@@ -1,0 +1,34 @@
+*{
+    background-color: teal;
+    color: black;
+}
+
+h3{
+    font-size: 30px;
+    font-style: italic;
+    background-color: white;
+    color: black;
+}
+
+.food{
+    font-size: 40px;
+    color: brown;
+}
+
+#title{
+    color: white;
+    background-color: black;
+}
+li{
+    color: black;
+}
+
+ul{
+       color: white;
+}
+img{
+    margin-right: 30%;
+}
+#rest{
+        margin-right: 20px;
+}

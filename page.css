@@ -1,0 +1,29 @@
+h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+img{
+    height: 400px;
+    width: 300px;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+@media (max-device-width:500px) {
+    h1 {
+        color:blue;
+        font-size: xx-large;
+    }
+
+    .content{
+        font-size: large;
+        color: orange;
+    }
+    img{
+        height: 500px;
+        width: 400px;
+    }
+}

@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Fibonacci series</title>
+</head>
+
+<body>
+    <button type="button" onclick="f()">Click Here</button>
+    <script>
+        function f() {
+            var a, b, c, n, i;
+            a=0;
+            b=1;
+            n=parseInt(prompt('Enter the number of terms:'));
+            for (i = 1; i <= n; i++) {
+                document.write(a+" ");
+                c = a + b;
+                a = b;
+                b = c;
+            }
+        }
+    </script>
+</body>
+
+</html>

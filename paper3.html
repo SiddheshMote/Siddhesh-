@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Q.1</title>
+</head>
+
+<body>
+    <h1>Fizz-Buzz</h1>
+    <script>
+        function fizzbuzz(i) {
+          
+            if (i % 3 == 0 && i % 5 == 0) {
+                return "FizzBuzz";
+            }
+            else if (i % 3 == 0) {
+                return "Fizz";
+            }
+            else if (i % 5 == 0) {
+                return "Buzz"
+            }
+            else {
+                return i;
+            }
+        }
+        for (let j = 1; j <= 100; j++) {
+            document.write(fizzbuzz(j) + "<br>");
+        }
+
+    </script>
+</body>
+
+</html>
+<html>

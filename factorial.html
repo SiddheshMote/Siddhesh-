@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Factorial</title>
+</head>
+
+<body>
+    <button type="button" onclick="s1();">Click Here</button>
+    <script>
+        function s1() {
+            var n;
+            n = parseInt(prompt("Enter any number:"));
+            var i;
+            var fact;
+            while(i<=n){
+                fact=fact*i;
+                i++;
+            }
+            document.write("Factorial of "+n+" is "+fact);
+        }
+    </script>
+</body>
+
+</html>

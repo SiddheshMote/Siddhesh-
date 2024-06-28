@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>odd</title>
+</head>
+
+<body>
+    <h1>Loop Start.</h1>
+    <button type="button" onclick="o()">Click Here</button>
+    <script>
+        function o() {
+            var num;
+            var odd=0;
+            while (odd != 5) {
+                num = prompt("Enter numbers:");
+                if (num % 2 != 0) {
+                    odd++;
+                }
+            }
+            document.write("<h1>Loop Ended.</h1>");
+        }
+    </script>
+</body>
+
+</html>

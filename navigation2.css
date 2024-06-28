@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.abc{
+    color: snow;
+    background-color: blue;
+}
+.sc{
+    background-color: aqua;
+}
+li{
+    float: left;
+    background-color: transparent;
+    color: white;
+    border-right: 2px;
+    border-color: red;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    background-color:transparent;
+    border: none;
+}
+table{
+    height: 0%;
+    width: 100%;
+}
+#a{
+    background-color: transparent;
+    border-color: red;
+}
+a{
+    display: block;
+    padding: 20px;
+    color: red;
+}
+a:hover{
+    background-color: rgb(43, 70, 226);
+    color: white;
+}

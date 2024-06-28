@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Armstrong number</title>
+</head>
+
+<body>
+    <button type="button" onclick="s1();">Click Here</button>
+    <script>
+        function s1() {
+            var a;
+            var n;
+            n = parseInt(prompt('Enter any number:'));
+            sum = 0;
+            num = n;
+            while (n != 0) {
+                var a = n % 10;
+                n = parseInt(n / 10);
+                var cube = a * a * a;
+                sum = sum + cube;
+
+            }
+            if (sum == num) {
+                document.write(num + "is a armstrong number.");
+            }
+            else {
+                document.write(num + "is a not armstrong number.");
+            }
+        }
+    </script>
+</body>
+
+</html>

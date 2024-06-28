@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Animation</title>
+    <style>
+        img{
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            animation: img 5s 500ms ease-in-out;
+        }
+        @keyframes img {
+            0%{
+                transform: rotate(0);
+                width: 80px;
+                left: 60px;
+                top: 70px;
+            }
+            50%{
+                transform: rotate(90deg);
+                width: 500px;
+                left: 120px;
+                top: 70px;
+
+            }
+            100%{
+                transform: rotate(0deg);
+                width: 200px;
+                left: 180px;
+                top: 70px;
+            }
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 2px transparent;
+            border-radius: 60px ;
+            position: relative;
+            animation: circle 2s 500ms ease-in-out;
+        }
+        @media circle {
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">CSS Animation</h1><br>
+        <img src="dice.jpeg">
+</body>
+</html>

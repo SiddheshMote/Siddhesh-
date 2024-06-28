@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Pallidrome number</title>
+</head>
+
+<body>
+    <button type="button" onclick="s1();">Click Here</button>
+    <script>
+        function s1() {
+            var n;
+            n = parseInt(prompt("Enter any number:"));
+            var n1 = 0;
+            var temp = n;
+            while (temp != 0) {
+                digit = temp % 10;
+                n1 = n1 * 10 + digit;
+                temp = parseInt(temp / 10);
+            }
+            if (n == n1) {
+                document.write(n1 + " is a Pallidrome number.");
+            }
+            else {
+                document.write(n1 + " is not a Pallidrome number.")
+            }
+        }
+    </script>
+</body>
+
+</html>

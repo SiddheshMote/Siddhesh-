@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Paper1</title>
+    <style>
+        img{
+            height: 150px;
+            width: 200px;
+            position: absolute;
+            animation: dice 2s 500ms ease-in-out;
+        }
+        a{
+            color:blueviolet;
+        }
+        @keyframes dice {
+            0%{
+                transform: rotate(0);
+                left: 0px;
+                top: 80px;
+            } 
+            100%{
+                transform:rotatey(180deg);
+                left:200px;
+                top: 80px;
+            } 
+        }
+        button:hover{
+            background-color: red;
+        }
+        @keyframes button {
+            0%{
+                background-color: blue;
+            }
+            100%{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Card Flips</h1>
+    <img src="dice.jpeg">
+    <div align="center">
+    <button><a href="#">Change Color of imgage background</a></button>
+    </div>
+</body>
+</html>

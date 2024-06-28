@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+.text h1{
+    font-size: large;
+}
+.text{
+    margin-bottom: 10px;
+}
+.symbol{
+    margin-left: 20px;
+}
+.symbol i{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.link ul li{
+    list-style: none;
+    font-style: normal;
+    color: rgb(170, 177, 177);
+}
+.link li h1{
+    font-size: large;
+    margin-bottom: 10px;
+    color: white;
+}
+.new h1{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.new input{
+    width: 25vw;
+    height: 25px;
+    margin-bottom: 5px;
+}
+#button{
+    background-color: rgba(239, 147, 19, 0.865);
+    color: white;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT';
+    border: 0px;
+    border-radius: 5px;
+}
+.bar{
+    background-color: rgba(39, 36, 36, 0.906);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.item ul li{
+    display: inline;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}

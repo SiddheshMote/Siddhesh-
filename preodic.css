@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.table{
+    display: flex;
+    width: 100vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.col2{
+    margin-top: 70px;
+}
+.col3{
+    margin-top: 209px;
+}
+.box{
+    color: white;
+    display: block;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    padding: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.red{
+    background-color: red;   
+}
+.navy{
+    background-color: rgb(0, 86, 112);
+}
+.skyblue{
+    background-color: rgba(21, 211, 244, 0.934);
+}
+.lightgreen{
+    background-color: rgba(57, 234, 69, 0.719);
+}
+.green{
+    background-color: rgb(3, 171, 67);
+}
+.blue{
+    background-color: rgba(2, 144, 154, 0.979);
+}
+.brown{
+    background-color: #532c02;
+}
+.orange{
+    background-color: rgba(237, 162, 22, 0.906);
+}
+.red{
+    background-color: red;
+}
+.darkorange{
+    background-color: rgb(255, 136, 0);
+}
+.pink{
+    background-color: rgb(232, 15, 185);
+}
+.font{
+    font-size: small;
+}
+.container{
+    margin-left: 5px;
+    width: 240px;
+    height: 30px;
+    margin-bottom: 5px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box1{
+    color: white;
+    display: block;
+    width: 108px;
+    height: 60px;
+    text-align: center;
+    padding: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Combination Addition</title>
+</head>
+<body>
+    <h1>Combination Addition</h1>
+    <button type="button" onclick="Combination()">Click here</button>
+    <script>
+        function Combination(){
+            var n = 5;
+            var r = 5;
+            var sum = 0;
+            var combine;
+            while(r>=0){
+                combine = Factorial(n) / Factorial(r) * Factorial(n-r);
+                sum = sum + combine;
+                r--;
+            }
+            document.write("Addition of Combination:" + sum);
+        }
+        function Factorial(number){
+        var fact = 1;
+         var temp = number
+        while(temp!=0){
+         fact = fact * temp;
+         temp--;   
+        }
+        return fact;
+        }
+    </script>
+</body>
+</html>
